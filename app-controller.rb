@@ -8,4 +8,10 @@ class MyApp < Sinatra::Base
     erb :index
   end
   
+  post '/results' do
+    @user_sentence=params[:sentence]
+    @translated_sentence=to_pig_latin(@user_sentence)
+    erb :results
+  end
+  
 end

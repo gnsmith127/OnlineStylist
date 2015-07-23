@@ -10,6 +10,7 @@ def good_style (shirt_choice, pant_choice)
       }
   }
   if shirt_choice==styles[:shirt][:color][6] and pant_choice==styles[:pants][:color][7]
+    
     elsif pant_choice==styles[:pants][:color][6] and shirt_choice==styles[:shirt][:color][7]
     return false
   else

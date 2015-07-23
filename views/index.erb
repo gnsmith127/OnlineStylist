@@ -5,30 +5,68 @@
   <title>Online Styler</title>
   <link rel="stylesheet" href="stylesheet.css" type="text/css">
  </head>
-   <h1>Your Online Styler</h1>
+  <h1>Your Online Styler</h1>
+   <p>This website is designed to allow you to improve your fashion sense: one outfit at a time.
+   </p>
  <body>
-   <p>This website is designed to allow you to improve your fashion sense: one outfit at a time.</p>
+   <h2> Shirts </h2>
    <br>
-   <p> Choose a pair of pants:</p>
-   <br>
-   <form action="/results" method="post">
-   <div>
-     <input type="radio" name="pants" value="Khaki Pants"> <img src=http://www.bananarepublic.com/products/res/mainimg/aiden-slim-lightweight-chino-khaki.jpg>
-     <br>
-     <input type="radio" name="pants" value="Jeans"> <img src=http://rawrdenim.wpengine.com/wp-content/uploads/2011/06/MensJeans2.jpg><br>
-     <input type="radio" name="pants" value="Khaki Shorts"> <img src=https://s-media-cache-ak0.pinimg.com/236x/e8/45/24/e84524f6446ffb25899f7c616d0e3bee.jpg>   <br>
+   <p>Choose a style of shirt: </p>
+   <div> 
+     <h4> Shirt Style </h4>
+       <form action="/results" method= "post">
+         <input type="radio" name="shirt" value="tshirt"> Tshirt <br>
+         <input type="radio" name="shirt" value="button_down"> Button-Down <br>
+       </form>
    </div>
-       <p> What top are you matching with those pants?</p>
    <br>
+   <p>Choose a shirt color:</p>
    <div>
-     <input type="radio" name="shirt" value="Black T-Shirt"> <img src= http://p.globalsources.com/IMAGES/PDT/B1074198063/Mens-V-neck-T-shirt.jpg>
-     <br>
-     <input type="radio" name="shirt" value="White T-Shirt"> <img src=http://www.xpressionphotography.com/sy-photos/2014/04/21/18/small_988435_t-shirts.jpg>
-     <br>
-     <input type="radio" name="shirt" value="Gray T-Shirt"> <img src=http://static3.shop.indiatimes.com/images/products/additional/original/B2207085_View_1/fashion/t-shirts/andyou-grey-plain-men-t-shirt-dod-ts-107.jpg>
-     <br>
-     <input type="submit">
-    </div>
-    </form>
+     <h4> Shirt Color </h4>
+        <form action="/results" method= "post">
+         <input type="radio" name="shirt_color" value="red"> red <br>
+         <input type="radio" name="shirt_color" value="orange"> orange <br>
+         <input type="radio" name="shirt_color" value="yellow"> yellow <br>
+         <input type="radio" name="shirt_color" value="green"> green <br>
+         <input type="radio" name="shirt_color" value="blue"> blue <br>
+         <input type="radio" name="shirt_color" value="purple"> purple <br>
+         <input type="radio" name="shirt_color" value="black"> black <br>
+         <input type="radio" name="shirt_color" value="gray"> gray <br>
+         <input type="radio" name="shirt_color" value="navy"> navy <br>
+         <input type="radio" name="shirt_color" value="white"> white <br>
+         <input type="radio" name="shirt_color" value="print/graphic/plaid"> print/graphic?plaid <br>
+         <input type="radio" name="shirt_color" value="denim"> denim <br>
+        </form>
+   </div>
+   <br>
+   <p>Choose a pant style: </p>
+   <div>
+     <h2> Pant Style </h2>
+     <form action="/results" method= "post">
+         <input type="radio" name="pants" value="jeans"> Jeans <br>
+         <input type="radio" name="pants" value="khakis"> Khakis <br>
+       </form>
+   </div>
+   <br>
+   <p> Choose a pant color:
+   </p>
+    <div>
+     <h4> Pant Color </h4>
+        <form action="/results" method= "post">
+         <input type="radio" name="pant_color" value="red"> red <br>
+         <input type="radio" name="pant_color" value="orange"> orange <br>
+         <input type="radio" name="pant_color" value="yellow"> yellow <br>
+         <input type="radio" name="pant_color" value="green"> green <br>
+         <input type="radio" name="pant_color" value="blue"> blue <br>
+         <input type="radio" name="pant_color" value="purple"> purple <br>
+         <input type="radio" name="pant_color" value="black"> black <br>
+         <input type="radio" name="pant_color" value="gray"> gray <br>
+         <input type="radio" name="pant_color" value="navy"> navy <br>
+         <input type="radio" name="pant_color" value="white"> white <br>
+         <input type="radio" name="pant_color" value="print/graphic/plaid"> print/graphic?plaid <br>
+         <input type="radio" name="pant_color" value="denim"> denim <br>
+         <input type="submit"> <br>
+        </form>
+   </div>
   </body>
 </html>

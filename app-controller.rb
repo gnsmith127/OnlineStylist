@@ -7,4 +7,12 @@ class MyApp < Sinatra::Base
     erb :index
   end
   
+  post '/results' do
+    if good_style(params[:shirt])
+      erb :good
+    else
+      erb :bad
+  end
+  end
+  
 end

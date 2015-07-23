@@ -9,8 +9,8 @@ class MyApp < Sinatra::Base
   end
 
   post '/results' do 
-    @shirt_choice=params[:shirt]
-    @pant_choice=params[:pants]
+    @shirt_choice=params[:shirt_color]
+    @pant_choice=params[:pant_color]
     if good_style(@shirt_choice)==true and good_style(@pant_choice)==true
       erb :good 
     else 

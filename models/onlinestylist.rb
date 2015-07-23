@@ -1,10 +1,17 @@
-def good_style (choice)
+def good_style (shirt_choice, pant_choice)
   styles={
-  :shirt => ["Black T-Shirt", "White T-Shirt", "Gray T-Shirt"],
-  :pants => ["Khaki Pants", "White T-Shirt", "Gray T-Shirt"]
+    :shirt => {
+      :style => ["t-shirt", "button down"],
+      :color => ["red", "orange", "yellow", "green", "blue", "purple"], ["navy blue", "black", "gray", "white", "print/graphic/plaid", "denim"]
+      },
+    :pants => {
+      :style => ["khaki", "jeans"],
+      :color => ["red", "orange", "yellow", "green", "blue", "purple"], ["navy blue", "black", "gray", "white", "print/graphic/plaid", "denim"]
+      }
   }
-  if choice==styles[:shirt][0] or choice==styles[:pants][0]
-    return true
+  if shirt_choice==styles[:shirt][:color][6] and pant_choice==styles[:pants][:color][7]
+    elsif pant_choice==styles[:pants][:color][6] and shirt_choice==styles[:shirt][:color][7]
+    return false
   else
     return false
   end

@@ -1,9 +1,8 @@
-styles={
-  :shirt => "tshirt"; "buttondown"
+def good_style (choice)
+  styles={
+  :shirt => ["Black T-Shirt", "White T-Shirt", "Gray T-Shirt"]
   }
-
-def good_style (params)
-  if params==styles[0]
+  if choice==styles[:shirt][0]
     return true
   else
     return false

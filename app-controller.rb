@@ -14,5 +14,7 @@ class MyApp < Sinatra::Base
     else 
       erb :bad
   end
+  end
+  
   
 end

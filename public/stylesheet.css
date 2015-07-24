@@ -3,23 +3,30 @@
   property: value;
 } */
 
-h2 {
-    font-family: "Slabo"
-    font-size: 27px
-    color: #FFFFFF  
-    font-decoration: underline
+
      
+
+h2{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 27px;
+    color: #FFFFFF  ;
+    background-color: #ff4444;
+    text-decoration: underline
 }
 
 h4 {
-    font-family: "Bree Serif"
-    font-size: 40px
-    color: #FFFFFF
-    font-decoration: bold  
+    font-family: 'Pacifico', cursive;
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #ff4444
 }
 body {
-     background-color: #d3dfe4;
+     background-color: #d3dfe4
 }
       
-    
+
+h1 {
+  font-family:'Oswald', sans-serif;
+  font-size:40px;
+  color: #FFFFFF
 }

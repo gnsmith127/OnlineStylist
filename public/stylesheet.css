@@ -37,3 +37,40 @@ div > form {
   font-weight: 100;
   color: #363636;
 }
+
+div {
+  font-style: Arial;
+  font-weight: 100;
+	border-radius: 15px;
+	border: 2px solid #ff6666;
+	background-color: #ff9999;
+	height: 50px;
+	width: 120px;
+	margin: auto;
+	text-align: center;
+  text-decoration: none
+}
+
+#shirt_style {
+  font-style: Arial;
+  font-weight: 100;
+	background-color: #868686;
+	height: 50px;
+	width: 120px;
+	margin: auto;
+	text-align: left;
+  text-decoration: none;
+  float: left
+}
+
+#shirt_color {
+  font-style: Arial;
+  font-weight: 100;
+	background-color: #dbdbdb;
+	height: 50px;
+	width: 120px;
+	margin: auto;
+	text-align: left;
+  text-decoration: none;
+  float: right
+}

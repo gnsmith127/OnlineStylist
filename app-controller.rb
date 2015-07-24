@@ -5,6 +5,10 @@ require_relative 'models/onlinestylist.rb'
 class MyApp < Sinatra::Base
 
   get '/' do
+    erb :home
+  end
+  
+  get '/index.erb' do
     erb :index
   end
 

@@ -19,6 +19,7 @@ class MyApp < Sinatra::Base
     @pant_color=params[:pant_color]
     @shirt_url= clothes_url(@shirt_style,@shirt_color)
     @pant_url=clothes_url(@pant_style,@pant_color)
+    puts params
     if bad_style(@shirt_color, @pant_color)==false
       erb :bad 
     else 

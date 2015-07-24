@@ -17,7 +17,7 @@ class MyApp < Sinatra::Base
     @shirt_color=params[:shirt_color]
     @pant_style=params[:pants]
     @pant_color=params[:pant_color]
-    if good_style(@shirt_style, @shirt_color, @pant_style, @pant_color)==false
+    if bad_style(@shirt_color, @pant_color)==false
       erb :bad 
     else 
       erb :good

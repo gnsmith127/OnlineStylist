@@ -1,4 +1,4 @@
-def good_style (shirt_choice,pant_choice)
+def bad_style (shirt_choice,pant_choice)
   styles={
     :shirt => {
       :style => ["t-shirt", "button down"],

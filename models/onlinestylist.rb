@@ -14,6 +14,6 @@ def bad_style (shirt_choice,pant_choice)
   elsif (shirt_choice==styles[:shirt][:color][8] && pant_choice==styles[:pants][:color][1]) or (shirt_choice==styles[:shirt][:color][1] && pant_choice==styles[:pants][:color][8])
     return false
   else
-    return false
+    return true
   end
 end

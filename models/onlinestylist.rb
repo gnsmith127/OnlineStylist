@@ -35,25 +35,25 @@ def clothes_url(x,y)
     "https://s-media-cache-ak0.pinimg.com/236x/ac/d0/2e/acd02efc0eb4999dc0779e66c16ea72b.jpg"
   elsif (x=="t shirt" && y=="orange")
     "http://www.vkwear.com/wp-content/uploads/imported/NEW-NWT-LACOSTE-MENS-PREMIUM-SPORT-ATHLETIC-COTTON-V-NECK-SHIRT-T-SHIRT-ORANGE-361151192485.jpg"
-    elsif (x=="t shirt" && y=="yellow")
+    elsif (x=="t-shirt" && y=="yellow")
     "http://d310a9hpolx59w.cloudfront.net/product_photos/143214/ep01_organic_t-shirt_yellow_large.jpg"
-    elsif (x=="t shirt" && y=="green")
+    elsif (x=="t-shirt" && y=="green")
     "http://www.huetrap.com/imageuploads/product/00222/1000X1000_20140227102205_GREEN-MODEL-FRONT.jpg"
-     elsif (x=="t shirt" && y=="blue")
+     elsif (x=="t-shirt" && y=="blue")
     " https://dov5cor25da49.cloudfront.net/products/5801/636x460shirt_guys_01.jpg"
-     elsif (x=="t shirt" && y=="purple")
+     elsif (x=="t-shirt" && y=="purple")
     "http://www.thayam.com/media/catalog/product/cache/1/image/700x/9df78eab33525d08d6e5fb8d27136e95/p/u/purple_2_6.jpg"
-     elsif (x=="t shirt" && y=="navy")
+     elsif (x=="t-shirt" && y=="navy")
     "http://i.ebayimg.com/00/s/NTAwWDUwMA==/z/LO4AAMXQrhdTQySr/$_35.JPG"
-     elsif (x=="t shirt" && y=="black")
+     elsif (x=="t-shirt" && y=="black")
     "http://i.ebayimg.com/images/i/171394845562-0-1/s-l1000.jpg"
-     elsif (x=="t shirt" && y=="gray")
+     elsif (x=="t-shirt" && y=="gray")
     "http://g02.a.alicdn.com/kf/HTB15hVrIXXXXXbJXFXXq6xXFXXX0/Free-Shipping-2014-summer-Hot-Sale-font-b-blank-b-font-men-s-casual-short-sleeve.jpg"
-     elsif (x=="t shirt" && y=="white")
+     elsif (x=="t-shirt" && y=="white")
     "http://www.xpressionphotography.com/sy-photos/2014/04/21/18/small_988435_t-shirts.jpg"
-     elsif (x=="t shirt" && y=="print/graphic/plaid")
+     elsif (x=="t-shirt" && y=="print/graphic/plaid")
     "http://cdn05.brooklynindustries.com/resources/BKI/images/products/processed/1110411-069.10250.a.zoom.jpg"
-     elsif (x=="t shirt" && y=="denim")
+     elsif (x=="t-shirt" && y=="denim")
     "https://cdnc.lystit.com/photos/9f8b-2014/02/01/topman-blue-light-wash-denim-t-shirt-product-1-17228187-2-925651479-normal_large_flex.jpeg"
   elsif (x=="button down" && y=="red")
     "http://sparkshopz.com/image/cache/data/(121)mondo-long-sleeve-g755406a-2-600x600.jpg"

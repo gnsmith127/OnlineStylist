@@ -2,90 +2,31 @@
   property: value; 
   property: value;
 } */
+
+
+     
+
+h2{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 27px;
+    color: #FFFFFF  ;
+    background-color: #ff4444;
+    text-decoration: underline
+}
+
+h4 {
+    font-family: 'Pacifico', cursive;
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #ff4444
+}
+body {
+     background-color: #d3dfe4
+}
+      
+
 h1 {
-  font-family: Arial;
-  font-weight: lighter;
-  color: #FF6666
+  font-family:'Oswald', sans-serif;
+  font-size:40px;
+  color: #FFFFFF
 }
-#MEN {
-  font-family: Arial;
-  font-weight: lighter;
-  font-size: 15px;
-  color: #FF9999
-}
-
-h2 {
-/* <<<<<<< HEAD
-    font-family: "Slabo"
-    font-size: 27px
-    color: #FFFFFF  
-    font-decoration: underline
-}
-h4 {
-    font-family: "Bree Serif"
-    font-size: 40px
-    color: #FFFFFF
-    font-decoration: bold  
-    
-}
-======= */
-  font-family: Arial;
-  font-weight: lighter;
-  color: #FF9999
-}
-
-h4 {
-  font-family: Arial;
-  font-weight: bold;
-  color: #363636;
-}
-
-p {
-  font-family: Arial;
-  font-weight: 100;
-  color: #868686;
-}
-
-div > form {
-  font-family: Arial;
-  font-weight: 100;
-  color: #363636;
-}
-
-div {
-  font-style: Arial;
-  font-weight: 100;
-	border-radius: 15px;
-	border: 2px solid #ff6666;
-	background-color: #ff9999;
-	height: 50px;
-	width: 120px;
-	margin: auto;
-/* 	text-align: center; */
-  text-decoration: none
-}
-
-#shirt_style {
-  font-style: Arial;
-  font-weight: 100;
-	background-color: #868686;
-	height: 50px;
-	width: 120px;
-	margin: auto;
-	text-align: left;
-  text-decoration: none;
-  float: left
-}
-
-#shirt_color {
-  font-style: Arial;
-  font-weight: 100;
-	background-color: #dbdbdb;
-	height: 50px;
-	width: 120px;
-	margin: auto;
-	text-align: left;
-  text-decoration: none;
-  float: right
-}
->>>>>>> 12d4cfc72dacdf760d7b082324a78fe9084e53f7

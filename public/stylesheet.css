@@ -15,7 +15,7 @@ h1 {
 }
 
 h2 {
-<<<<<<< HEAD
+/* <<<<<<< HEAD
     font-family: "Slabo"
     font-size: 27px
     color: #FFFFFF  
@@ -28,7 +28,7 @@ h4 {
     font-decoration: bold  
     
 }
-=======
+======= */
   font-family: Arial;
   font-weight: lighter;
   color: #FF9999
@@ -61,7 +61,7 @@ div {
 	height: 50px;
 	width: 120px;
 	margin: auto;
-	text-align: center;
+/* 	text-align: center; */
   text-decoration: none
 }
 

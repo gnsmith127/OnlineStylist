@@ -21,7 +21,7 @@ class MyApp < Sinatra::Base
       erb :bad 
     else 
       erb :good
-  end
+    end
   end
   
   

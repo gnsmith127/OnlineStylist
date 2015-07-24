@@ -2,10 +2,38 @@
   property: value; 
   property: value;
 } */
+h1 {
+  font-family: Arial;
+  font-weight: lighter;
+  color: #FF6666
+}
+#MEN {
+  font-family: Arial;
+  font-weight: lighter;
+  font-size: 15px;
+  color: #FF9999
+}
 
 h2 {
-  font-family: Slabo
-  font-size: 27px
-  color: #FFFFFF  
-  font-decoration: underline
+  font-family: Arial;
+  font-weight: lighter;
+  color: #FF9999
+}
+
+h4 {
+  font-family: Arial;
+  font-weight: bold;
+  color: #363636;
+}
+
+p {
+  font-family: Arial;
+  font-weight: 100;
+  color: #868686;
+}
+
+div > form {
+  font-family: Arial;
+  font-weight: 100;
+  color: #363636;
 }
